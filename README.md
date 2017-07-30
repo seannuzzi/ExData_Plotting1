@@ -1,5 +1,25 @@
 ## Introduction
 
+This is a submission for the first course project for 
+"Exploratory Data Analysis" on Coursera. The following are key files:
+
+1. `README.md` this file, which is a slightly modified version of the original.
+1. `utility.R` some common global variables and functions used throughout.
+ i. Note that downloaded and unzipped files are placed in the `data` subdirectory.
+ i. `init()` will download and prepare data - data is cached and will be reused as needed.
+ i. `sanityCheck()` inspects that data and outputs diagnostics
+1. `plot1.R` code for generating `plot1.png`
+1. `plot2.R` code for generating `plot2.png`
+1. `plot3.R` code for generating `plot3.png`
+1. `plot4.R` code for generating `plot4.png`
+
+### Execution
+All scripts are executed by first setting your working directory to your
+local clone of this repository.  For example, to generate the first plot, use:
+`source("plot1.R")`
+
+## Introduction from Clone
+
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
